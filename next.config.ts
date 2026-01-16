@@ -1,11 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    serverActions: true,
-  },
   images: {
-    domains: ['localhost', 'deveonex.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'deveonex.com',
+      },
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+      },
+    ],
   },
 };
 
