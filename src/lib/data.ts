@@ -1,0 +1,105 @@
+// Services data
+export const services = [
+  { icon: "🌐", title: "Web Development", description: "Custom, responsive websites built with modern technologies for optimal performance." },
+  { icon: "📱", title: "App Development", description: "Native and cross-platform mobile applications that deliver exceptional user experiences." },
+  { icon: "🛒", title: "WordPress Development", description: "Custom WordPress solutions tailored to your business requirements." },
+  { icon: "💻", title: "Software Development", description: "Custom software solutions designed to streamline your business operations." },
+  { icon: "🤖", title: "Machine Learning", description: "AI-powered solutions that automate processes and unlock data insights." },
+  { icon: "🧠", title: "Deep Learning", description: "Advanced neural networks for complex problem-solving and predictive analytics." },
+  { icon: "🎨", title: "Graphic Designing", description: "Creative visual solutions that communicate your brand message effectively." },
+  { icon: "🎨", title: "UI/UX Design", description: "User-centered design that combines aesthetics with intuitive functionality." },
+  { icon: "🎥", title: "Video Editing", description: "Professional video production and editing services for marketing content." },
+  { icon: "📈", title: "Digital Marketing", description: "Comprehensive digital marketing strategies to grow your online presence." },
+  { icon: "🔍", title: "SEO", description: "Search engine optimization to increase your website's visibility." },
+  { icon: "🛒", title: "Shopify Development", description: "E-commerce solutions on the Shopify platform for online stores." },
+];
+
+// Why Choose Us data
+export const whyChooseUs = [
+  { icon: "🚀", title: "Fast Delivery", description: "We deliver projects on time without compromising on quality." },
+  { icon: "🔒", title: "Secure Solutions", description: "Implementing robust security measures in all our solutions." },
+  { icon: "💡", title: "Innovation", description: "Using the latest technologies to create innovative solutions." },
+  { icon: "🤝", title: "Client Partnership", description: "Working closely with clients to understand their unique needs." },
+  { icon: "📈", title: "Growth Focused", description: "Designing solutions that scale with your business growth." },
+  { icon: "24/7", title: "Round The Clock Support", description: "Providing 24/7 support to ensure smooth operations." },
+];
+
+// Features data
+export const features = [
+  { icon: "👥", title: "Expert Team", description: "Our skilled designers, developers, and strategists work together to deliver impactful solutions." },
+  { icon: "✨", title: "Quality Work", description: "We focus on delivering high-standard products that bring measurable results." },
+  { icon: "🚀", title: "Growth Driven", description: "Every project is designed to help your business attract leads and grow sustainably." },
+];
+
+// Process Steps data
+export const processSteps = [
+  { step: "01", title: "Discovery", description: "We analyze your requirements and define project scope." },
+  { step: "02", title: "Strategy", description: "Crafting a tailored roadmap for your success." },
+  { step: "03", title: "Development", description: "Building your solution with cutting-edge technology." },
+  { step: "04", title: "Launch", description: "Deploying and optimizing for real-world performance." },
+];
+
+// Project Categories data
+export const projectCategories = [
+  { title: "Web Development", count: "120+", icon: "🌐" },
+  { title: "App Development", count: "45+", icon: "📱" },
+  { title: "Graphic Designing", count: "80+", icon: "🎨" },
+  { title: "UI/UX Designing", count: "60+", icon: "🎨" },
+  { title: "Video Editing", count: "30+", icon: "🎥" },
+  { title: "Software Development", count: "50+", icon: "💻" },
+];
+
+// Projects data
+export const projects = [
+  { title: "E-Commerce Platform", category: "Web Development", color: "#3b82f6" },
+  { title: "FinTech Mobile App", category: "App Development", color: "#8b5cf6" },
+  { title: "AI Analytics Dashboard", category: "Machine Learning", color: "#06b6d4" },
+  { title: "SaaS Product Redesign", category: "UI/UX Design", color: "#10b981" },
+];
+
+// Team Members data
+export const teamMembers = [
+  { name: "Alex Morgan", role: "CEO & Founder", bio: "Visionary leader with 15+ years in tech innovation.", avatar: "AM" },
+  { name: "Taylor Kim", role: "CTO", bio: "Technical expert specializing in scalable architecture solutions.", avatar: "TK" },
+  { name: "Jordan Smith", role: "Lead Developer", bio: "Full-stack developer with expertise in modern frameworks.", avatar: "JS" },
+  { name: "Casey Brown", role: "Creative Director", bio: "Award-winning designer focused on user experience.", avatar: "CB" },
+];
+
+// Testimonials data
+export const testimonials = [
+  { name: "Sarah Johnson", role: "CEO, TechStart", quote: "Deveonex transformed our digital presence. Their expertise and dedication exceeded our expectations. The team delivered a solution that not only met our requirements but also provided scalability for future growth. Their ongoing support has been exceptional.", avatar: "SJ", rating: 5 },
+  { name: "Ahmed Khan", role: "Operations Manager, GlobalCorp", quote: "Working with Deveonex was a game-changer for our business. They understood our complex requirements and delivered a robust solution ahead of schedule. Their attention to detail and proactive communication made the entire process seamless.", avatar: "AK", rating: 5 },
+  { name: "Emily Carter", role: "Founder, StartupHub", quote: "As a startup, we needed a partner who could work within our budget while delivering quality results. Deveonex exceeded our expectations with their innovative approach and commitment to our success. Highly recommend their services!", avatar: "EC", rating: 5 },
+];
+
+// Blog Posts data
+export const blogPosts = [
+  { 
+    title: "The Future of AI in Business Operations", 
+    excerpt: "Exploring how artificial intelligence is transforming business processes and driving efficiency.", 
+    date: "Jan 15, 2026", 
+    category: "Technology",
+    readTime: "5 min read"
+  },
+  { 
+    title: "Best Practices for Secure Web Development", 
+    excerpt: "Essential security measures every developer should implement in modern web applications.", 
+    date: "Jan 10, 2026", 
+    category: "Development",
+    readTime: "7 min read"
+  },
+  { 
+    title: "Maximizing ROI with Strategic UX Design", 
+    excerpt: "How thoughtful user experience design can significantly impact your business bottom line.", 
+    date: "Jan 5, 2026", 
+    category: "Design",
+    readTime: "6 min read"
+  },
+];
+
+// Hero Values data
+export const heroValues = [
+  { title: "Make The Innovative Solutions For You", desc: "Creating cutting-edge solutions tailored to your unique business requirements." },
+  { title: "Transforming Ideas Into Digital Reality", desc: "Bringing your concepts to life with advanced technology and creative design." },
+  { title: "Smart Software. Smarter Future.", desc: "Building intelligent systems that drive growth and innovation." },
+];
