@@ -47,8 +47,8 @@ export default function Navigation() {
               href={item.path}
               className={`px-3 py-2 rounded-md font-medium transition-all duration-300 text-sm lg:text-base
                 ${isActive(item.path)
-                  ? "text-blue-600 bg-blue-50 border-b-2 border-blue-500"
-                  : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"}
+                  ? "text-orange-500 bg-orange-50 border-b-2 border-orange-500"
+                  : "text-gray-700 hover:text-orange-500 hover:bg-gray-50"}
               `}
             >
               {item.label}
@@ -61,7 +61,7 @@ export default function Navigation() {
           {/* CTA */}
           <Link
             href="/contact"
-            className="hidden md:inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-5 py-2 rounded-full font-medium transition-all duration-300 shadow-md hover:shadow-lg"
+            className="hidden md:inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-5 py-2 rounded-full font-medium transition-all duration-300 shadow-md hover:shadow-lg"
           >
             GET A QUOTE
           </Link>
@@ -87,7 +87,7 @@ export default function Navigation() {
                 key={idx}
                 href={item.path}
                 className={`py-3 px-4 rounded-lg font-medium transition-colors text-left
-                  ${isActive(item.path) ? "bg-blue-50 text-blue-600 border-l-4 border-blue-500" : "text-gray-700 hover:bg-gray-50 hover:text-blue-600"}
+                  ${isActive(item.path) ? "bg-orange-50 text-orange-500 border-l-4 border-orange-500" : "text-gray-700 hover:bg-gray-50 hover:text-orange-500"}
                 `}
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -96,7 +96,7 @@ export default function Navigation() {
             ))}
             <Link
               href="/contact"
-              className="mt-2 text-center bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-3 rounded-full font-medium transition-all duration-300"
+              className="mt-2 text-center bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white py-3 rounded-full font-medium transition-all duration-300"
               onClick={() => setMobileMenuOpen(false)}
             >
               GET A QUOTE
