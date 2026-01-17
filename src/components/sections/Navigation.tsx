@@ -25,8 +25,8 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <nav className="sticky top-0 z-50 bg-white shadow-lg">
+      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <NextImage
@@ -34,21 +34,21 @@ export default function Navigation() {
             alt="Social Provider Logo"
             width={200}
             height={60}
-            className="h-14 w-auto object-contain"
+            className="h-12 w-auto object-contain"
             priority
           />
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-2 lg:gap-6">
+        <div className="hidden md:flex items-center gap-1 lg:gap-4">
           {menuItems.map((item, idx) => (
             <Link
               key={idx}
               href={item.path}
-              className={`px-3 py-2 rounded-md font-medium transition-colors text-base lg:text-lg
+              className={`px-3 py-2 rounded-md font-medium transition-all duration-300 text-sm lg:text-base
                 ${isActive(item.path)
-                  ? "text-blue-600 bg-blue-50"
-                  : "text-blue-900 hover:text-blue-600 hover:bg-blue-50"}
+                  ? "text-blue-600 bg-blue-50 border-b-2 border-blue-500"
+                  : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"}
               `}
             >
               {item.label}
@@ -57,18 +57,18 @@ export default function Navigation() {
         </div>
 
         {/* Right Section */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           {/* CTA */}
           <Link
             href="/contact"
-            className="hidden md:inline-block bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-medium transition-colors"
+            className="hidden md:inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-5 py-2 rounded-full font-medium transition-all duration-300 shadow-md hover:shadow-lg"
           >
             GET A QUOTE
           </Link>
 
           {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden text-gray-700 hover:text-blue-700"
+            className="md:hidden text-gray-700 hover:text-blue-700 p-1"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -80,14 +80,14 @@ export default function Navigation() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100">
-          <div className="px-6 py-4 flex flex-col gap-2">
+        <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
+          <div className="px-6 py-4 flex flex-col gap-1">
             {menuItems.map((item, idx) => (
               <Link
                 key={idx}
                 href={item.path}
-                className={`py-2 px-4 rounded-md font-medium transition-colors
-                  ${isActive(item.path) ? "bg-blue-50 text-blue-600" : "text-blue-900 hover:bg-blue-50 hover:text-blue-600"}
+                className={`py-3 px-4 rounded-lg font-medium transition-colors text-left
+                  ${isActive(item.path) ? "bg-blue-50 text-blue-600 border-l-4 border-blue-500" : "text-gray-700 hover:bg-gray-50 hover:text-blue-600"}
                 `}
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -96,7 +96,7 @@ export default function Navigation() {
             ))}
             <Link
               href="/contact"
-              className="mt-4 text-center bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-full font-medium transition-colors"
+              className="mt-2 text-center bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-3 rounded-full font-medium transition-all duration-300"
               onClick={() => setMobileMenuOpen(false)}
             >
               GET A QUOTE
