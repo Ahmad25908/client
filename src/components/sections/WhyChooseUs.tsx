@@ -14,7 +14,11 @@ export default function WhyChooseUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {whyChooseUs.map((item, index) => (
             <div key={index} className="glass-card p-6 group hover:border-blue-500/30 transition-all">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">{item.icon}</div>
+              <div className="flex justify-center mb-4">
+                <div className="bg-blue-500/10 p-3 rounded-full group-hover:bg-blue-500/20 transition-colors">
+                  <div className="text-2xl">{item.icon}</div>
+                </div>
+              </div>
               <h3 className="text-xl font-bold mb-2">{item.title}</h3>
               <p className="text-gray-400">{item.description}</p>
             </div>

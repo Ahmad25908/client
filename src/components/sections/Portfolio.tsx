@@ -16,7 +16,11 @@ export default function Portfolio() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4 mb-16">
           {projectCategories.map((category, index) => (
             <div key={index} className="glass-card p-2 sm:p-3 md:p-4 lg:p-6 text-center group hover:border-blue-500/30 transition-all">
-              <div className="text-lg sm:text-xl md:text-2xl lg:text-4xl mb-1 group-hover:scale-110 transition-transform">{category.icon}</div>
+              <div className="flex justify-center mb-1">
+                <div className="bg-blue-500/10 p-2 rounded-full group-hover:bg-blue-500/20 transition-colors">
+                  <div className="text-lg sm:text-xl md:text-2xl lg:text-4xl text-blue-400 group-hover:scale-110 transition-transform">{category.icon}</div>
+                </div>
+              </div>
               <div className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold gradient-text mb-1">{category.count}+</div>
               <h3 className="text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm font-medium">{category.title}</h3>
             </div>

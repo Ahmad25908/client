@@ -14,7 +14,11 @@ export default function Process() {
         <div className="grid md:grid-cols-4 gap-6">
           {processSteps.map((item, index) => (
             <div key={index} className="glass-card p-6 text-center relative group">
-              <div className="text-5xl font-bold text-orange-500/20 group-hover:text-orange-500/40 transition-colors">{item.step}</div>
+              <div className="flex justify-center mb-4">
+                <div className="bg-blue-500/10 p-3 rounded-full group-hover:bg-blue-500/20 transition-colors">
+                  <div className="text-2xl font-bold text-blue-400">{item.step}</div>
+                </div>
+              </div>
               <h3 className="mt-2 mb-2">{item.title}</h3>
               <p className="text-sm">{item.description}</p>
               {index < processSteps.length - 1 && (
