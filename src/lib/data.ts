@@ -59,10 +59,12 @@ export const projects = [
 
 // Team Members data
 export const teamMembers = [
-  { name: "Alex Morgan", role: "CEO & Founder", bio: "Visionary leader with 15+ years in tech innovation.", avatar: "AM" },
-  { name: "Taylor Kim", role: "CTO", bio: "Technical expert specializing in scalable architecture solutions.", avatar: "TK" },
-  { name: "Jordan Smith", role: "Lead Developer", bio: "Full-stack developer with expertise in modern frameworks.", avatar: "JS" },
-  { name: "Casey Brown", role: "Creative Director", bio: "Award-winning designer focused on user experience.", avatar: "CB" },
+  { name: "M Usman", role: "CEO and Founder", bio: "Visionary leader with extensive experience in business strategy and company growth.", avatar: "MU" },
+  { name: "Hassan CH", role: "Python AI Developer", bio: "Specialized in artificial intelligence and machine learning solutions using Python.", avatar: "HC" },
+  { name: "Ummad Mushtaq", role: "Youtuber", bio: "Content creator and digital marketing specialist with expertise in online engagement.", avatar: "UM" },
+  { name: "Ahsan Abrar", role: "Frontend Developer", bio: "Expert in creating responsive and user-friendly interfaces with modern web technologies.", avatar: "AA" },
+  { name: "Asad Rafic", role: "Social Media Manager", bio: "Skilled in social media strategy and community building across multiple platforms.", avatar: "AR" },
+  { name: "Nabeel Shafqat", role: "Full Stack Developer", bio: "Versatile developer with expertise in both frontend and backend technologies.", avatar: "NS" },
 ];
 
 // Testimonials data
