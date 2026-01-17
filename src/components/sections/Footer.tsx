@@ -13,14 +13,14 @@ export default function Footer() {
               <Link href="/" className="inline-block">
                 <NextImage
                   src="/logo.jpg"
-                  alt="Deveonex Logo"
+                  alt="Social Provider Logo"
                   width={300}
                   height={90}
                   className="h-24 w-auto object-contain"
                 />
               </Link>
             </div>
-            <p className="text-sm text-gray-400 mb-4">Selecting the finest IT service provider. We deliver excellence in digital solutions.</p>
+            <p className="text-sm text-gray-400 mb-4">Partner with Social Provider for excellence in digital solutions.</p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-orange-500 transition-colors">
                 <span className="sr-only">Facebook</span>
@@ -93,14 +93,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <span className="mr-2">✉️</span>
-                <span>socialprovider@gmail.com</span>
+                <span>contact@socialprovider.com</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Deveonex. All rights reserved.
+            © {new Date().getFullYear()} Social Provider. All rights reserved.
             <Link href="/privacy-policy" className="mx-2 hover:text-white transition-colors">Privacy Policy</Link> |
             <Link href="/terms-of-service" className="mx-2 hover:text-white transition-colors">Terms of Service</Link>
           </p>

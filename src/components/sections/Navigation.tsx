@@ -31,7 +31,7 @@ export default function Navigation() {
         <Link href="/" className="flex items-center">
           <NextImage
             src="/logo.jpg"
-            alt="Deveonex Logo"
+            alt="Social Provider Logo"
             width={200}
             height={60}
             className="h-14 w-auto object-contain"

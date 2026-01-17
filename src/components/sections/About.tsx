@@ -9,8 +9,8 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="section-label">About Us</span>
-            <h2 className="mt-4 mb-6">We Are <span className="gradient-text">Deveonex</span></h2>
-            <p className="mb-8">We combine technical expertise with strategic thinking to deliver solutions that not only meet your current needs but position you for future growth.</p>
+            <h2 className="mt-4 mb-6">We Are <span className="gradient-text">Social Provider</span></h2>
+            <p className="mb-8">Social Provider combines technical expertise with strategic thinking to deliver solutions that not only meet your current needs but position you for future growth.</p>
             <div className="space-y-6">
               {features.map((feature, index) => (
                 <div key={index} className="flex gap-4">

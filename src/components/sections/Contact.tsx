@@ -54,7 +54,7 @@ export default function Contact() {
             Get In <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Partner with us to bring your vision to life. Let&apos;s create something extraordinary together.
+            Connect with Social Provider to bring your vision to life. Let&apos;s create something extraordinary together.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function Contact() {
             <div>
               <h3 className="text-3xl font-bold text-white mb-6">Contact Information</h3>
               <p className="text-gray-400 mb-8">
-                We'd love to hear from you! Fill out the form and our team will get back to you as soon as possible.
+                Get in touch with Social Provider! Fill out the form and our team will get back to you as soon as possible.
               </p>
             </div>
 
@@ -89,7 +89,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white">Email</h4>
-                  <p className="text-gray-400">contact@deveonex.com</p>
+                  <p className="text-gray-400">contact@socialprovider.com</p>
                 </div>
               </div>
 
@@ -102,7 +102,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white">Office</h4>
-                  <p className="text-gray-400">123 Business Avenue, Suite 100<br />New York, NY 10001</p>
+                  <p className="text-gray-400">123 Business Avenue, Suite 100<br />USA 10001</p>
                 </div>
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
-            <h3 className="text-3xl font-bold text-white mb-6">Send us a message</h3>
+            <h3 className="text-3xl font-bold text-white mb-6">Send Social Provider a message</h3>
 
             {status === 'success' && (
               <div className="mb-6 p-4 rounded-lg bg-green-500/10 border border-green-500/30 text-green-400">

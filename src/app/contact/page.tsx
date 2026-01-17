@@ -102,7 +102,7 @@ export default function ContactPage() {
       <Navigation />
 
       <main>
-        <UniversalBanner title="Get In Touch" />
+        <UniversalBanner title="Contact Social Provider" />
 
         <section className="py-16 bg-[#020617]">
           <div className="max-w-7xl mx-auto px-6">
@@ -112,7 +112,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-3xl font-bold text-white mb-6">Contact Information</h2>
                   <p className="text-gray-400 mb-8">
-                    We'd love to hear from you! Fill out the form and our team will get back to you as soon as possible.
+                    Get in touch with Social Provider! Fill out the form and our team will get back to you as soon as possible.
                   </p>
                 </div>
 
@@ -137,7 +137,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-white">Email</h3>
-                      <p className="text-gray-400">contact@deveonex.com</p>
+                      <p className="text-gray-400">contact@socialprovider.com</p>
                     </div>
                   </div>
 
@@ -150,7 +150,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-white">Office</h3>
-                      <p className="text-gray-400">123 Business Avenue, Suite 100<br />New York, NY 10001</p>
+                      <p className="text-gray-400">123 Business Avenue, Suite 100<br />USA 10001</p>
                     </div>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ export default function ContactPage() {
 
               {/* Contact Form */}
               <div className="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
-                <h2 className="text-3xl font-bold text-white mb-6">Send us a message</h2>
+                <h2 className="text-3xl font-bold text-white mb-6">Send Social Provider a message</h2>
 
                 {submitStatus && (
                   <div className={`mb-6 p-4 rounded-lg ${submitStatus.type === 'success' ? 'bg-green-500/10 border border-green-500/30 text-green-400' : 'bg-red-500/10 border border-red-500/30 text-red-400'}`}>
