@@ -1,18 +1,5 @@
-// Services data
-export const services = [
-  { icon: "🌐", logo: "/web-development.png", title: "Web Development", description: "Custom, responsive websites built with modern technologies for optimal performance." },
-  { icon: "📱", logo: "/app-development.png", title: "App Development", description: "Native and cross-platform mobile applications that deliver exceptional user experiences." },
-  { icon: "🛒", logo: "/wordpress.png", title: "WordPress Development", description: "Custom WordPress solutions tailored to your business requirements." },
-  { icon: "💻", logo: "/software-development.png", title: "Software Development", description: "Custom software solutions designed to streamline your business operations." },
-  { icon: "🤖", logo: "/machine-learning.png", title: "Machine Learning", description: "AI-powered solutions that automate processes and unlock data insights." },
-  { icon: "🧠", logo: "/deep-learning.png", title: "Deep Learning", description: "Advanced neural networks for complex problem-solving and predictive analytics." },
-  { icon: "🎨", logo: "/graphic-design.png", title: "Graphic Designing", description: "Creative visual solutions that communicate your brand message effectively." },
-  { icon: "🎨", logo: "/ui-ux-design.png", title: "UI/UX Design", description: "User-centered design that combines aesthetics with intuitive functionality." },
-  { icon: "🎥", logo: "/video-editing.png", title: "Video Editing", description: "Professional video production and editing services for marketing content." },
-  { icon: "📈", logo: "/digital-marketing.png", title: "Digital Marketing", description: "Comprehensive digital marketing strategies to grow your online presence." },
-  { icon: "🔍", logo: "/seo.png", title: "SEO", description: "Search engine optimization to increase your website's visibility." },
-  { icon: "🛒", logo: "/shopify.png", title: "Shopify Development", description: "E-commerce solutions on the Shopify platform for online stores." },
-];
+// Services data - Now defined directly in the Services component
+// export const services = [...]; // Removed as services are now defined in the component
 
 // Why Choose Us data
 export const whyChooseUs = [

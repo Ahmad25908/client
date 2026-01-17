@@ -1,7 +1,11 @@
 import Services from "@/components/sections/Services";
+import About from "@/components/sections/About";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Process from "@/components/sections/Process";
+import Portfolio from "@/components/sections/Portfolio";
+import Team from "@/components/sections/Team";
 import Testimonials from "@/components/sections/Testimonials";
+import Contact from "@/components/sections/Contact";
 import Navigation from "@/components/sections/Navigation";
 import Footer from "@/components/sections/Footer";
 import UniversalBanner from "@/components/ui/UniversalBanner";
@@ -54,9 +58,13 @@ export default function ServicesPage() {
       <main>
         <UniversalBanner title="Our Services" />
         <Services />
+        <About />
         <WhyChooseUs />
         <Process />
+        <Portfolio />
+        <Team />
         <Testimonials />
+        <Contact />
       </main>
       <Footer />
     </>
