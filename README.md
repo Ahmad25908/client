@@ -1,4 +1,4 @@
-# Deveonex Website
+# Social Provider Website
 
 A professional business website built with Next.js, featuring a responsive design and contact form integration with Resend for email delivery.
 

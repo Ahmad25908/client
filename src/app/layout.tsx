@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Deveonex | Premium IT Solutions & Software Development",
+  title: "Social Provider | Premium IT Solutions & Software Development",
   description: "Selecting the finest IT service provider. We deliver exceptional web, app, and software development with cutting-edge AI and digital marketing solutions.",
   keywords: "IT services, software development, web development, app development, AI, machine learning, digital marketing",
 };

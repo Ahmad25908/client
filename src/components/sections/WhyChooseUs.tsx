@@ -8,7 +8,7 @@ export default function WhyChooseUs() {
       <div className="section">
         <div className="section-header">
           <span className="section-label">Why Choose Us</span>
-          <h2>Why Choose <span className="gradient-text">Deveonex</span></h2>
+          <h2>Why Choose <span className="gradient-text">Social Provider</span></h2>
           <p className="max-w-2xl mx-auto mt-4">Discover what sets us apart from the competition and makes us the ideal partner for your digital transformation.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

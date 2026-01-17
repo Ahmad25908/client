@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
 
               <h2 className="text-xl font-semibold mt-8 mb-4">Introduction</h2>
               <p className="mb-4">
-                Deveonex ("us", "we", or "our") operates the deveonex.com website (the "Service").
+                Social Provider ("us", "we", or "our") operates the socialprovider.com website (the "Service").
                 This page informs you of our policies regarding the collection, use, and disclosure
                 of personal data when you use our Service and the choices you have associated with that data.
               </p>
@@ -69,7 +69,7 @@ export default function PrivacyPolicyPage() {
 
               <h2 className="text-xl font-semibold mt-8 mb-4">Use of Data</h2>
               <p className="mb-4">
-                Deveonex uses the collected data for various purposes:
+                Social Provider uses the collected data for various purposes:
               </p>
               <ul className="list-disc pl-6 mb-4">
                 <li>To provide and maintain our Service</li>
@@ -109,7 +109,7 @@ export default function PrivacyPolicyPage() {
                 If you have any questions about this Privacy Policy, please contact us:
               </p>
               <ul className="list-disc pl-6 mb-8">
-                <li>By email: info@deveonex.com</li>
+                <li>By email: info@socialprovider.com</li>
               </ul>
             </div>
           </div>

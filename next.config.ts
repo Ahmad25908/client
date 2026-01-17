@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'deveonex.com',
+        hostname: 'socialprovider.com',
       },
       {
         protocol: 'http',

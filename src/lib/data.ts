@@ -56,9 +56,9 @@ export const teamMembers = [
 
 // Testimonials data
 export const testimonials = [
-  { name: "Sarah Johnson", role: "CEO, TechStart", quote: "Deveonex transformed our digital presence. Their expertise and dedication exceeded our expectations. The team delivered a solution that not only met our requirements but also provided scalability for future growth. Their ongoing support has been exceptional.", avatar: "SJ", rating: 5 },
-  { name: "Ahmed Khan", role: "Operations Manager, GlobalCorp", quote: "Working with Deveonex was a game-changer for our business. They understood our complex requirements and delivered a robust solution ahead of schedule. Their attention to detail and proactive communication made the entire process seamless.", avatar: "AK", rating: 5 },
-  { name: "Emily Carter", role: "Founder, StartupHub", quote: "As a startup, we needed a partner who could work within our budget while delivering quality results. Deveonex exceeded our expectations with their innovative approach and commitment to our success. Highly recommend their services!", avatar: "EC", rating: 5 },
+  { name: "Sarah Johnson", role: "CEO, TechStart", quote: "Social Provider transformed our digital presence. Their expertise and dedication exceeded our expectations. The team delivered a solution that not only met our requirements but also provided scalability for future growth. Their ongoing support has been exceptional.", avatar: "SJ", rating: 5 },
+  { name: "Ahmed Khan", role: "Operations Manager, GlobalCorp", quote: "Working with Social Provider was a game-changer for our business. They understood our complex requirements and delivered a robust solution ahead of schedule. Their attention to detail and proactive communication made the entire process seamless.", avatar: "AK", rating: 5 },
+  { name: "Emily Carter", role: "Founder, StartupHub", quote: "As a startup, we needed a partner who could work within our budget while delivering quality results. Social Provider exceeded our expectations with their innovative approach and commitment to our success. Highly recommend their services!", avatar: "EC", rating: 5 },
 ];
 
 // Blog Posts data

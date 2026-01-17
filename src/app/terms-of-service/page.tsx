@@ -31,50 +31,50 @@ export default function TermsOfServicePage() {
 
               <h2 className="text-xl font-semibold mt-8 mb-4">Introduction</h2>
               <p className="mb-4">
-                Welcome to Deveonex. These terms and conditions outline the rules and regulations
-                for the use of Deveonex's Website, located at deveonex.com.
+                Welcome to Social Provider. These terms and conditions outline the rules and regulations
+                for the use of Social Provider's Website, located at socialprovider.com.
               </p>
               <p className="mb-4">
                 By accessing this website we assume you accept these terms and conditions. Do not
-                continue to use Deveonex if you do not agree to take all of the terms and conditions
+                continue to use Social Provider if you do not agree to take all of the terms and conditions
                 stated on this page.
               </p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">Intellectual Property</h2>
               <p className="mb-4">
-                Unless otherwise stated, Deveonex and/or its licensors own the intellectual property
-                rights for all material on Deveonex. All intellectual property rights are reserved.
-                You may access this from Deveonex for your own personal use subjected to restrictions
+                Unless otherwise stated, Social Provider and/or its licensors own the intellectual property
+                rights for all material on Social Provider. All intellectual property rights are reserved.
+                You may access this from Social Provider for your own personal use subjected to restrictions
                 set in these terms and conditions.
               </p>
               <p className="mb-4">
                 You must not:
               </p>
               <ul className="list-disc pl-6 mb-4">
-                <li>Republish material from Deveonex</li>
-                <li>Sell, rent or sub-license material from Deveonex</li>
-                <li>Reproduce, duplicate or copy material from Deveonex</li>
-                <li>Redistribute content from Deveonex</li>
+                <li>Republish material from Social Provider</li>
+                <li>Sell, rent or sub-license material from Social Provider</li>
+                <li>Reproduce, duplicate or copy material from Social Provider</li>
+                <li>Redistribute content from Social Provider</li>
               </ul>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">User Responsibilities</h2>
               <p className="mb-4">
                 In these terms and conditions, "Your Content" shall mean any audio, video text,
                 images or other material you choose to display on this Website. By displaying
-                Your Content, you grant Deveonex a non-exclusive, worldwide irrevocable,
+                Your Content, you grant Social Provider a non-exclusive, worldwide irrevocable,
                 sub-licensable license to reproduce, adapt, publish, translate and distribute
                 it in any and all media.
               </p>
               <p className="mb-4">
                 Your Content must be your own and must not be invading any third-party's rights.
-                Deveonex reserves the right to remove any of Your Content from this Website at any time.
+                Social Provider reserves the right to remove any of Your Content from this Website at any time.
               </p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">Limitations of Liability</h2>
               <p className="mb-4">
-                In no event shall Deveonex, nor any of its officers, directors and employees,
+                In no event shall Social Provider, nor any of its officers, directors and employees,
                 be held liable for anything arising out of or in any way connected with your use
-                of this Website whether such liability is under contract.  Deveonex, including
+                of this Website whether such liability is under contract.  Social Provider, including
                 its officers, directors and employees shall not be held liable for any indirect,
                 consequential or special liability arising out of or in any way related to your
                 use of this Website.
@@ -99,7 +99,7 @@ export default function TermsOfServicePage() {
                 If you have any questions about these Terms, please contact us:
               </p>
               <ul className="list-disc pl-6 mb-8">
-                <li>By email: info@deveonex.com</li>
+                <li>By email: info@socialprovider.com</li>
               </ul>
             </div>
           </div>

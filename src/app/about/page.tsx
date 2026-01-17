@@ -52,7 +52,7 @@ export default function AboutPage() {
 
       <Navigation />
       <main>
-        <UniversalBanner title="About Deveonex" />
+        <UniversalBanner title="About Social Provider" />
         <AboutComponent />
         <WhyChooseUs />
         <Process />

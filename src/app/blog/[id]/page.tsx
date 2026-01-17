@@ -112,12 +112,12 @@ export default function BlogPost({ params }: { params: { id: string } }) {
                                     </p>
 
                                     <p>
-                                        At Deveonex, we take pride in developing innovative solutions that not only meet today's demands but also prepare businesses for tomorrow. From AI-powered applications to cloud-based platforms, our solutions are built with scalability and adaptability in mind.
+                                        At Social Provider, we take pride in developing innovative solutions that not only meet today's demands but also prepare businesses for tomorrow. From AI-powered applications to cloud-based platforms, our solutions are built with scalability and adaptability in mind.
                                     </p>
 
                                     <h3>Key Drivers of Innovation</h3>
                                     <p>
-                                        By combining creativity with technical expertise, we help industries unlock new opportunities and stay ahead of competitors. The future belongs to those who innovate, and at Deveonex, we make that future possible.
+                                        By combining creativity with technical expertise, we help industries unlock new opportunities and stay ahead of competitors. The future belongs to those who innovate, and at Social Provider, we make that future possible.
                                     </p>
 
                                     <p>
@@ -173,7 +173,7 @@ export default function BlogPost({ params }: { params: { id: string } }) {
                                     </p>
 
                                     <p>
-                                        At Deveonex, our technology consultancy services are designed to bridge the gap between business vision and technological implementation. We help organizations navigate the complexities of digital transformation while maximizing ROI and minimizing risks.
+                                        At Social Provider, our technology consultancy services are designed to bridge the gap between business vision and technological implementation. We help organizations navigate the complexities of digital transformation while maximizing ROI and minimizing risks.
                                     </p>
 
                                     <h3>Strategic Technology Planning</h3>
@@ -234,7 +234,7 @@ export default function BlogPost({ params }: { params: { id: string } }) {
                                     </p>
 
                                     <p>
-                                        At Deveonex, we specialize in creating custom software solutions that grow with your business. Our approach combines deep industry knowledge with cutting-edge technology to deliver applications that drive efficiency, productivity, and growth.
+                                        At Social Provider, we specialize in creating custom software solutions that grow with your business. Our approach combines deep industry knowledge with cutting-edge technology to deliver applications that drive efficiency, productivity, and growth.
                                     </p>
 
                                     <h3>Advantages of Custom Software</h3>
