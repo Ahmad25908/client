@@ -1,42 +1,103 @@
 "use client";
 
-import {
-  Globe,
-  Smartphone,
-  Code,
-  Brain,
-  Layers,
-  Palette,
-  Layout,
-  Scissors,
-  Megaphone,
-  Search,
-  Users,
-  DollarSign
-} from 'lucide-react';
-
 export default function Services() {
-  // Define services with appropriate icons
+  // Define services with inline SVGs that match your website
   const services = [
-    { icon: Globe, title: "Web Development", description: "Custom, responsive websites built with modern technologies for optimal performance." },
-    { icon: Smartphone, title: "App Development", description: "Native and cross-platform mobile applications that deliver exceptional user experiences." },
-    { icon: Code, title: "Software Development", description: "Custom software solutions designed to streamline your business operations." },
-    { icon: Brain, title: "Machine Learning", description: "AI-powered solutions that automate processes and unlock data insights." },
-    { icon: Layers, title: "Deep Learning", description: "Advanced neural networks for complex problem-solving and predictive analytics." },
-    { icon: Palette, title: "Graphic Designing", description: "Creative visual solutions that communicate your brand message effectively." },
-    { icon: Layout, title: "UI / UX Designing", description: "User-centered design that combines aesthetics with intuitive functionality." },
-    { icon: Scissors, title: "Video Editing", description: "Professional video production and editing services for marketing content." },
-    { icon: Megaphone, title: "Digital Marketing", description: "Comprehensive digital marketing strategies to grow your online presence." },
-    { icon: Search, title: "SEO", description: "Search engine optimization to increase your website's visibility." },
     {
-      icon: Users,
-      title: "Social Media Management",
-      description: "Instagram, Facebook, TikTok, YouTube - comprehensive social media management."
+      title: "Web Development",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+        </svg>
+      )
     },
     {
-      icon: DollarSign,
+      title: "App Development",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        </svg>
+      )
+    },
+    {
+      title: "Software Development",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+        </svg>
+      )
+    },
+    {
+      title: "Machine Learning",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 7.75h4.5m-4.5 3h4.5m-4.5 3h4.5M3 19.5h18M3 3.5h18" />
+        </svg>
+      )
+    },
+    {
+      title: "Deep Learning",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      )
+    },
+    {
+      title: "Graphic Designing",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M7 21h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343m-4 2V3M3 3.5h18" />
+        </svg>
+      )
+    },
+    {
+      title: "UI / UX Designing",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M7 21h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343m-4 2V3M3 3.5h18" />
+        </svg>
+      )
+    },
+    {
+      title: "Video Editing",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+        </svg>
+      )
+    },
+    {
+      title: "Digital Marketing",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+        </svg>
+      )
+    },
+    {
+      title: "SEO",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      )
+    },
+    {
+      title: "Social Media Management",
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+        </svg>
+      )
+    },
+    {
       title: "Social Media Monetization",
-      description: "YouTube, TikTok, Facebook monetization strategies for revenue growth."
+      svg: (
+        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      )
     },
   ];
 
@@ -50,32 +111,24 @@ export default function Services() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => {
-            const IconComponent = service.icon;
-            return (
-              <div
-                key={index}
-                className="bg-white/5 rounded-2xl p-8 hover:border-blue-500/30 transition-all duration-300 border border-white/10 backdrop-blur-sm group cursor-pointer"
-              >
-                {/* Icon container with centered alignment */}
-                <div className="flex justify-center mb-6">
-                  <div className="bg-blue-500/10 p-4 rounded-full group-hover:bg-blue-500/20 transition-colors">
-                    <IconComponent className="w-12 h-12 text-blue-400 group-hover:text-blue-300 transition-colors" />
-                  </div>
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl p-8 hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 border border-white/10 backdrop-blur-sm group cursor-pointer transform hover:scale-105"
+            >
+              {/* Icon container with centered alignment */}
+              <div className="flex justify-center mb-6">
+                <div className="bg-blue-500/20 p-4 rounded-full group-hover:bg-blue-500/30 transition-colors">
+                  {service.svg}
                 </div>
-
-                {/* Service title */}
-                <h3 className="text-xl font-bold mb-3 text-white text-center group-hover:text-blue-300 transition-colors">
-                  {service.title}
-                </h3>
-
-                {/* Service description */}
-                <p className="text-gray-400 text-center">
-                  {service.description}
-                </p>
               </div>
-            );
-          })}
+
+              {/* Service title */}
+              <h3 className="text-xl font-bold mb-0 text-white text-center group-hover:text-blue-300 transition-colors">
+                {service.title}
+              </h3>
+            </div>
+          ))}
         </div>
       </div>
     </section>
